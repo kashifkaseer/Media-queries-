@@ -1,0 +1,64 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.header{
+    background-color: green;
+    color: wheat;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.header:hover{
+    font-style: italic;
+    background-color: darkmagenta;
+    color: darkgrey;
+    transition: 2s;
+}
+
+
+img{
+    width: 350px;
+    height: 200px;
+    padding: 10px 30px;
+}
+.img{
+    text-align: center;
+
+}
+
+.img:hover{
+
+    background-color: coral;
+    color: black;
+    transition: 2s;
+}
+
+@media only screen and (min-width:200px) and (max-width: 677px){
+         .container{ 
+                
+           }
+}
+  
+@media only screen and (max-width: 500px){
+        .header { 
+            background-color: blue;
+            font-size: large;
+            font-style: italic;
+              }
+
+           .img{
+            background-color: darkgoldenrod;
+
+           }   
+
+}
